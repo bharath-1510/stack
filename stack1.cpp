@@ -79,5 +79,11 @@ int main()
 	s.push(2);
 	s.push(3);
 	s.print();
-	return 0;
+	cout<<"After pop : "<<s.pop()<<endl;
+	s.print();
+	s.push(3);
+	cout<<"size : "<<s.size()<<endl;
+	cout<<"After pop : "<<s.pop()<<endl;
+	cout<<"top function : "<<s.top1()<<endl;
+		return 0;
 }
